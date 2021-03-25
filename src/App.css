@@ -1,0 +1,131 @@
+.main {
+  background-image: url("./images/slide_one.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100vh;
+  overflow: auto;
+  padding-left: 8%;
+  padding-right: 10%;
+}
+
+.nav {
+  padding: 1rem;
+  height: 25%;
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo-image {
+  width: 4.728rem;
+  height: 2.363rem;
+  padding-left: 0.938rem;
+  object-fit: contain;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.contact {
+  margin-top: 2%;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 0.25rem 0.938rem;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+}
+
+#contact {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.25em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+}
+
+.marquee {
+  height: calc(75% - 2rem);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 5.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -2.2px;
+}
+
+
+
+.subhead {
+  align-self: center;
+  width: 22.5rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+}
+
+.cta-container {
+  
+  height: 11.8rem;
+  background-color: white;
+  
+  display: flex;
+  align-items: center;
+ 
+}
+
+.cta-text {
+  color: black;
+}
+
+.cta-button {
+  color: black;
+}
