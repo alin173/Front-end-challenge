@@ -19,6 +19,7 @@ function App() {
       <div className="main">
         <Navbar setpageData={setpageData} />
         <div className="marquee">
+          <div className="content-container">
           <div className="content">
             <div className="headline">
               <h1>{pageData.title}</h1>
@@ -26,6 +27,8 @@ function App() {
 
             <div className="subhead">{dataBlocks.subhead}</div>
           </div>
+          </div>
+          
 
           <div className="cta-container">
             <div className="cta-text">{dataBlocks.cta}</div>

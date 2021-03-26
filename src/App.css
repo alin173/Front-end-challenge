@@ -114,11 +114,19 @@ button:hover {
   justify-content: space-between;
   flex-grow: 1;
 }
+.content-container{ 
+  display: flex;
+    flex-grow: 1;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .content {
   display: flex;
   height: auto;
   flex-wrap: wrap;
+  width:100%;
   justify-content: space-between;
 
 }
