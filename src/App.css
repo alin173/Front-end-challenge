@@ -1,10 +1,11 @@
 
 
 .page-container {
+  
   background-color: black;
   background-size: cover;
   background-repeat: repeat;
-  overflow: auto;
+  overflow-Y: auto;
   display: flex;
   justify-content: center;
 }
@@ -15,11 +16,11 @@
   padding-right: 8%;
   width: 100%;
   max-width: 1440px;
-  overflow: hidden
+ 
 }
 
 .nav {
-  padding: 1.18rem 0rem;
+  padding: 1rem 0rem;
   height: 25%;
 }
 
@@ -169,7 +170,7 @@ h1 {
 
 @keyframes subheadSlide {
   from {
-    transform: translateX(-1000%);
+    transform: translateX(1000%);
   }
 
   to {
