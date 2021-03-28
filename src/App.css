@@ -1,0 +1,258 @@
+
+
+.page-container {
+  
+  background-color: black;
+  background-size: cover;
+  background-repeat: repeat;
+  overflow-Y: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  padding: 1rem 0rem;
+  height: auto;
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo-image {
+  width: 4.728rem;
+  height: 2.363rem;
+  padding-left: 0.938rem;
+  object-fit: contain;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.contact {
+  margin-top: 2%;
+}
+
+button {
+  background-color: transparent;
+  border: transparent;
+  color: white;
+  padding: 0.25rem 0.938rem;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  color: #ffc004;
+  transform: scale(1.1) 
+  perspective(1px)
+}
+
+
+
+#contact-button {
+  
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.25em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  margin: 0rem 1rem;
+}
+
+#contact-button:hover {
+  background-color: white;
+  color: #ffc004;
+  border: 1px solid black;
+}
+
+.marquee {
+  height: calc(75% - 2rem);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.content-container{ 
+  display: flex;
+    flex-grow: 1;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  width:100%;
+  justify-content: space-between;
+
+}
+
+.headline {
+  animation: headlineSlide .8s cubic-bezier(0.42,-0.02, 0, 0.96);
+  
+}
+
+@keyframes headlineSlide {
+  from {
+    transform: translateY(-300%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+h1 {
+  font-family: helvetica;
+  font-size: 5.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -2.2px; 
+}
+
+@media screen and (max-width: 380px) {
+  div h1 {
+    padding: 0rem 1rem;
+    font-size: 3rem
+  }
+}
+
+.subhead {
+  font-family: helvetica;
+  align-self: center;
+  width: 22.5rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  margin: 0rem 1rem;
+  animation: subheadSlide .8s .8s backwards cubic-bezier(0.42,-0.02, 0, 0.96);
+ 
+}
+
+@keyframes subheadSlide {
+  from {
+    transform: translateX(1000%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.cta-container {
+  height: 11.8rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  animation: ctaSlide .8s 1.6s backwards cubic-bezier(0.42,-0.02, 0, 0.96);
+ 
+}
+
+@keyframes ctaSlide {
+  from {
+    transform: translateY(300%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.cta-text {
+  color: black;
+  margin: 0rem 6%;
+  width: 30.188rem;
+
+  font-family: Helvetica;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.63px;
+}
+
+
+.cta-button-container {
+  margin: 1rem 6%;
+  margin-left: 3rem;
+  width: 16.5rem;
+  
+}
+
+.cta-button {
+  
+  display: flex;
+  align-items: center;
+}
+
+.cta-button-text {
+  color: black;
+  width: 5.25rem;
+  height: 1.25rem;
+  margin: 0.063rem 0;
+  font-family: Helvetica;
+  font-size: 0.688rem;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.82;
+  letter-spacing: 1px;
+}
+
+.cta-button-arrow {
+  color: #ffc004;
+  font-size: large;
+
+}
